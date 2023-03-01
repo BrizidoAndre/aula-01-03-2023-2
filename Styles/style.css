@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@400;700&family=Open+Sans&display=swap');
+/* Importando 3 fontes para a representação do site */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.layout-grid{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header{
+    display: flex;
+    align-items: center;
+
+    height: 60px;
+    width: auto;
+    background-color: #F9003D;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 591px;
+    height: 22px;
+}
+a{
+
+}
