@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@400;700&family=Open+Sans&display=swap');
 /* Importando 3 fontes para a representação do site */
+@font-face {
+    font-family: "bebas-neue";
+    src: url();
+}
 *{
     margin: 0;
     padding: 0;
@@ -25,16 +29,17 @@ header{
     width: auto;
     background-color: #F9003D;
 }
-nav{
+header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 591px;
     height: 22px;
 }
-a{
+header nav a{
     color: white;
     text-transform: uppercase;
     text-decoration-line: none;
     font-size: 18px;
+    font-family: sans-serif;
 }
