@@ -154,12 +154,62 @@ main .infobox{
     justify-content: center;
     align-items: center;
 }
-footer{
+footer #footerbackground{
     background-image: url(../Assets/Imgs/imagem-fundo-endereco.png);
     background-repeat: no-repeat;
     background-position: center center ;
     background-size: cover;
+    
+}
+footer .footerflex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
+    position: relative;
+
+    width: 899px;
+}
+footer #footertitle{
+    margin: 82px 0 36.72px 0;
+}
+footer #caixaendereco{
+    border: 2px solid #340B65;
+    background-color: #010010;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    padding-right: 25px;
+    padding-left: 66px;
+
+    margin-bottom: 144.12px;
+
+    width: 899px;
+    height: 203.36px;
+}
+footer #enderecotexto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    line-height: 27.19px;
+    color: #A259F7;
+}
+footer #mapaendereco{
+    position: absolute;
+    right: 25px;
+    bottom: 27.3px;
+}
+footer #footerdireitos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F9003D;
+
+    height: 82px;
+}
+footer #footertexto{
     width: auto;
-    height: 598px;
 }
